@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://estate:estate@clusterestate.6be36qi.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://demo:<password>@cluster0.d1lkgh4.mongodb.net/?retryWrites=true&w=majority",
   (err) => {
     if (err) {
       return console.log(err);
